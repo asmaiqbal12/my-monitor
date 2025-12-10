@@ -1,5 +1,12 @@
 # 实验室智能监控系统 (Lab Security Monitor)
 
+![Version](https://img.shields.io/badge/version-v3.0_Pro-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.x-red?logo=opencv&logoColor=white)
+![CustomTkinter](https://img.shields.io/badge/UI-CustomTkinter-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 Claude Code 和 Google Gemini 辅助创建的：一个基于 Python 和 OpenCV 的智能视频监控系统。专为实验室等环境设计，可利用电脑摄像头实现开关门等运动检测，实时弹窗提醒并自动截图记录。具备现代化UI界面、参数调整、自动清理截图、系统托盘运行等功能。
 
 ## ✨ 功能特性
