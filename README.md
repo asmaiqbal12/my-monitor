@@ -96,19 +96,46 @@ python monitor.py
 *   请确认已运行 `pip install -r requirements.txt`。
 *   如果使用 Anaconda，请确保在正确的环境中运行。
 
-## 📂 目录结构说明
+## � 如何打包软件
+
+如果你想将 Python 脚本打包成无需安装环境即可运行的 `.exe` 文件，请按照以下步骤操作：
+
+1.  **安装 PyInstaller**:
+    ```bash
+    pip install pyinstaller
+    ```
+
+2.  **执行打包命令**:
+    *   **方法 A (使用现有配置)** - *推荐*:
+        项目包含已配置好的 `main.spec` 文件，直接运行即可：
+        ```bash
+        pyinstaller main.spec
+        ```
+    *   **方法 B (手动打包)**:
+        如果无法使用 spec 文件，可以使用以下命令：
+        ```bash
+        pyinstaller -F -w -i cctv.ico monitor.py
+        ```
+        *   `-F`: 打包成单个 exe 文件
+        *   `-w`: 运行时不显示黑色控制台窗口
+        *   `-i cctv.ico`: 指定程序图标
+
+3.  **获取软件**:
+    打包完成后，在 `dist/` 目录下可以找到 `MyMonitor.exe` (或 `monitor.exe`)。
+
+## �📂 目录结构说明
 
 ```text
 MyMonitor/
-├── cctv.ico            # 应用程序图标
-├── monitor.py          # 主程序入口
-├── config.json         # 用户配置文件 (自动生成)
-├── window_layout.json  # 窗口布局记忆 (自动生成)
-├── security_monitor.log# 运行日志
-├── screenshots/        # [目录] 所有的报警截图
-├── requirements.txt    # 依赖说明
-├── README.md           # 说明文档
-└── LICENSE             # 许可证
+├── cctv.ico                 # 应用程序图标
+├── monitor.py               # 主程序入口
+├── config.json              # 用户配置文件 (自动生成)
+├── window_layout.json       # 窗口布局记忆 (自动生成)
+├── security_monitor.log     # 运行日志
+├── screenshots/             # [目录] 所有的报警截图
+├── requirements.txt         # 依赖说明
+├── README.md                # 说明文档
+└── LICENSE                  # 许可证
 ```
 
 ## 📄 许可证
