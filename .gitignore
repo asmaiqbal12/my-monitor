@@ -6,7 +6,8 @@ __pycache__/
 *.log
 
 # --- 打包产物 ---
-*.spec
+# *.spec (保留打包配置文件)
+!main.spec
 build/
 dist/
 release/
@@ -22,3 +23,4 @@ window_layout.json
 # --- IDE 配置 ---
 .vscode/
 .idea/
+.history/
