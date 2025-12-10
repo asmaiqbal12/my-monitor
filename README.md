@@ -1,13 +1,40 @@
-# 实验室智能监控系统 (Lab Security Monitor)
+<div align="center">
+  <h1 align="center">
+    📷 实验室智能监控系统<br>Lab Security Monitor
+  </h1>
 
-![Version](https://img.shields.io/badge/version-v3.0_Pro-brightgreen)
-![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.x-red?logo=opencv&logoColor=white)
-![CustomTkinter](https://img.shields.io/badge/UI-CustomTkinter-blue)
-![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-green)
+  <p align="center">
+    <strong>Claude Code 和 Google Gemini 辅助创建的智能视频监控系统</strong>
+  </p>
 
-Claude Code 和 Google Gemini 辅助创建的：一个基于 Python 和 OpenCV 的智能视频监控系统。专为实验室等环境设计，可利用电脑摄像头实现开关门等运动检测，实时弹窗提醒并自动截图记录。具备现代化UI界面、参数调整、自动清理截图、系统托盘运行等功能。
+  <p align="center">
+    专为实验室等环境设计，可利用电脑摄像头实现开关门等运动检测。<br>
+    具备实时弹窗提醒、自动截图记录、现代化UI界面、系统托盘运行等功能。
+  </p>
+
+  <p align="center">
+    <a href="https://github.com/Lecr7s/MyMonitor">
+      <img src="https://img.shields.io/badge/version-v3.0_Pro-brightgreen" alt="Version">
+    </a>
+    <img src="https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/OpenCV-4.x-red?logo=opencv&logoColor=white" alt="OpenCV">
+    <img src="https://img.shields.io/badge/UI-CustomTkinter-blue" alt="UI">
+    <img src="https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white" alt="Platform">
+    <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
+  </p>
+
+  <p align="center">
+    <a href="#-功能特性">功能特性</a> •
+    <a href="#-系统要求">系统要求</a> •
+    <a href="#-安装指南">安装指南</a> •
+    <a href="#-使用说明">使用说明</a> •
+    <a href="#-配置详解">配置详解</a> •
+    <a href="#-常见问题-troubleshooting">常见问题</a> •
+    <a href="#-如何打包软件">打包软件</a>
+  </p>
+</div>
+
+---
 
 ## ✨ 功能特性
 
@@ -19,11 +46,15 @@ Claude Code 和 Google Gemini 辅助创建的：一个基于 Python 和 OpenCV �
 *   **🌘 深色模式 UI**: 基于 CustomTkinter 的现代化用户界面，美观且护眼。
 *   **🧹 自动清理**: 内置截图自动清理功能，防止磁盘空间占满。
 
+---
+
 ## 🛠️ 系统要求
 
 *   **操作系统**: Windows 10/11 (推荐)
 *   **运行环境**: Python 3.8 或更高版本
 *   **硬件**: USB 摄像头或笔记本内置摄像头
+
+---
 
 ## 🚀 安装指南
 
@@ -37,6 +68,8 @@ Claude Code 和 Google Gemini 辅助创建的：一个基于 Python 和 OpenCV �
     ```bash
     pip install -r requirements.txt
     ```
+
+---
 
 ## 📖 使用说明
 
@@ -58,6 +91,8 @@ python monitor.py
 *   **ROI 选择**: 点击"重设区域"可框选重点监控区域（如门口、仪器），排除不相关区域的干扰。
 *   **灵敏度调节**: 界面右侧实时调节阈值，数值越小越灵敏。
 *   **截图查看**: 点击"相册"按钮直接打开截图保存文件夹。
+
+---
 
 ## ⚙️ 配置详解
 
@@ -87,6 +122,8 @@ python monitor.py
 | `gaussian_blur`     | `21`   | 高斯模糊核大小，用于去除噪点。必须是奇数。                        |
 | `dilate_iterations` | `2`    | 膨胀迭代次数，用于补全检测到的物体边缘。                          |
 
+---
+
 ## ❓ 常见问题 (Troubleshooting)
 
 ### Q1: 启动时提示 "无法连接摄像头"
@@ -103,7 +140,9 @@ python monitor.py
 *   请确认已运行 `pip install -r requirements.txt`。
 *   如果使用 Anaconda，请确保在正确的环境中运行。
 
-## � 如何打包软件
+---
+
+## 📦 如何打包软件
 
 如果你想将 Python 脚本打包成无需安装环境即可运行的 `.exe` 文件，请按照以下步骤操作：
 
@@ -130,7 +169,9 @@ python monitor.py
 3.  **获取软件**:
     打包完成后，在 `dist/` 目录下可以找到 `MyMonitor.exe` (或 `monitor.exe`)。
 
-## �📂 目录结构说明
+---
+
+## 📂 目录结构说明
 
 ```text
 MyMonitor/
@@ -145,6 +186,56 @@ MyMonitor/
 └── LICENSE                  # 许可证
 ```
 
+---
+
 ## 📄 许可证
 
 本项目采用 [MIT 许可证](LICENSE)。
+
+---
+
+## 🎁 致谢
+
+### 技术支持
+*   [OpenCV](https://opencv.org/) - 强大的计算机视觉库
+*   [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) - 现代化的 Python UI 库
+*   [Pillow](https://python-pillow.org/) - Python 图像处理库
+*   [Pystray](https://github.com/moses-palmer/pystray) - 系统托盘图标支持
+
+### 灵感来源
+*   Github 开源社区的优秀项目
+*   实验室安全监控的实际需求
+
+### 特别感谢
+*   **开源社区** - 全球开发者的无数贡献
+*   **Claude Code & Google Gemini** - 高效的 AI 代码辅助
+*   **你** - 感谢使用本项目！
+
+---
+
+## 📮 联系与反馈
+
+### 需要帮助？
+1.  查看 [常见问题](#-常见问题-troubleshooting) 章节
+2.  检查程序运行日志 `security_monitor.log`
+3.  如有 Bug，请在 GitHub Issues 中反馈
+
+### 想要贡献？
+欢迎提交 Pull Request！
+*   提交代码前请确保通过测试
+*   请保持代码风格一致
+
+---
+
+<div align="center">
+  <h3>🌟 如果这个项目对你有帮助，请给个 Star 吧！ 🌟</h3>
+  
+  <p>Made with ❤️ and Claude Code & Gemini</p>
+
+</div>
+
+---
+
+<div align="center">
+  版本: v3.0 更新日期: 2025-12-10 状态: ✅ 稳定版本
+</div>
