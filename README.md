@@ -1,15 +1,7 @@
-<div align="center">
-  <h1 align="center">
-    📷 实验室智能监控系统<br>Lab Security Monitor
-  </h1>
+# 📷 实验室智能监控系统 (Lab Security Monitor)
 
   <p align="center">
-    <strong>Claude Code 和 Google Gemini 辅助创建的智能视频监控系统</strong>
-  </p>
-
-  <p align="center">
-    专为实验室等环境设计，可利用电脑摄像头实现开关门等运动检测。<br>
-    具备实时弹窗提醒、自动截图记录、现代化UI界面、系统托盘运行等功能。
+    Claude Code 和 Google Gemini 辅助创建的：一个基于 Python 和 OpenCV 的智能视频监控系统。专为实验室等环境设计，可利用电脑摄像头实现开关门等运动检测。具备实时弹窗提醒、自动截图记录、现代化UI界面、系统托盘运行等功能。
   </p>
 
   <p align="center">
