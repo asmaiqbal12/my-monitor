@@ -52,8 +52,8 @@
 
 1.  **克隆仓库**:
     ```bash
-    git clone https://github.com/Lecr7s/MyMonitor.git
-    cd MyMonitor
+    git clone https://github.com/lecrix/my-monitor.git
+    cd my-monitor
     ```
 
 2.  **安装依赖**:
@@ -166,7 +166,7 @@ python monitor.py
 ## 📂 目录结构说明
 
 ```text
-MyMonitor/
+my-monitor/
 ├── cctv.ico                 # 应用程序图标
 ├── monitor.py               # 主程序入口
 ├── config.json              # 用户配置文件 (自动生成)
